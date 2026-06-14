@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TaxConsulto logo">
+  <rect width="64" height="64" rx="12" fill="#071f36"/>
+  <path d="M18 18h28v7H35v25h-7V25H18z" fill="#d6a21f"/>
+  <path d="M39 32h8v18h-8z" fill="#ffffff"/>
+</svg>
