@@ -9,7 +9,7 @@ export function TestimonialCarousel() {
 
   return (
     <div className="mx-auto mt-10 max-w-3xl rounded-lg bg-navy-950 p-6 text-white shadow-premium md:p-8">
-      <p className="text-xl font-semibold leading-8 text-white">"{testimonial.quote}"</p>
+      <p className="text-xl font-semibold leading-8 text-white">{testimonial.quote}</p>
       <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="font-black text-gold-300">{testimonial.name}</p>
