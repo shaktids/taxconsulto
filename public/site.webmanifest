@@ -1,9 +1,0 @@
-{
-  "name": "TaxConsulto.com",
-  "short_name": "TaxConsulto",
-  "description": "Your Trusted Tax & Compliance Partner",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#071f36"
-}
