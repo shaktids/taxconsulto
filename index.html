@@ -1,590 +1,209 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>TaxConsulto.com | GST, Income Tax & Business Compliance Services</title>
-
-<meta name="description" content="Expert GST Filing, Income Tax Return Filing, Company Registration, LLP Registration, Trademark Registration and Compliance Services.">
-
-<meta name="keywords" content="GST Filing, Income Tax Filing, Company Registration, LLP Registration, Trademark Registration, Tax Consultant">
-
-<meta property="og:title" content="TaxConsulto.com">
-<meta property="og:description" content="Your Trusted Tax & Compliance Partner">
-<meta property="og:type" content="website">
-
-<link rel="icon" href="favicon.ico">
-
-<style>
-
-:root{
---navy:#0A2540;
---gold:#D4AF37;
---white:#ffffff;
---light:#f8fafc;
---gray:#64748b;
-}
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, sans-serif;
-}
-
-html{
-scroll-behavior:smooth;
-}
-
-body{
-background:#fff;
-color:#222;
-line-height:1.6;
-}
-
-.container{
-width:90%;
-max-width:1200px;
-margin:auto;
-}
-
-header{
-position:sticky;
-top:0;
-background:#fff;
-z-index:999;
-box-shadow:0 2px 10px rgba(0,0,0,.08);
-}
-
-.navbar{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 0;
-}
-
-.logo{
-font-size:28px;
-font-weight:bold;
-color:var(--navy);
-}
-
-.logo span{
-color:var(--gold);
-}
-
-nav ul{
-display:flex;
-gap:25px;
-list-style:none;
-}
-
-nav a{
-text-decoration:none;
-color:var(--navy);
-font-weight:600;
-}
-
-.hero{
-background:linear-gradient(135deg,var(--navy),#163f66);
-color:#fff;
-padding:100px 0;
-}
-
-.hero-content{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:40px;
-align-items:center;
-}
-
-.hero h1{
-font-size:52px;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:20px;
-margin-bottom:30px;
-}
-
-.btn{
-display:inline-block;
-padding:14px 28px;
-border-radius:8px;
-text-decoration:none;
-font-weight:bold;
-margin-right:10px;
-}
-
-.btn-primary{
-background:var(--gold);
-color:#000;
-}
-
-.btn-secondary{
-border:2px solid #fff;
-color:#fff;
-}
-
-.section{
-padding:80px 0;
-}
-
-.section-title{
-text-align:center;
-font-size:38px;
-margin-bottom:50px;
-color:var(--navy);
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
-background:#fff;
-padding:25px;
-border-radius:12px;
-box-shadow:0 4px 20px rgba(0,0,0,.08);
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-6px);
-}
-
-.card h3{
-color:var(--navy);
-margin-bottom:15px;
-}
-
-.stats{
-background:var(--navy);
-color:#fff;
-}
-
-.stat-box{
-text-align:center;
-padding:20px;
-}
-
-.stat-box h2{
-font-size:40px;
-color:var(--gold);
-}
-
-.testimonial{
-background:#f8fafc;
-padding:30px;
-border-radius:10px;
-}
-
-.faq-item{
-border-bottom:1px solid #ddd;
-padding:15px 0;
-cursor:pointer;
-}
-
-.faq-answer{
-display:none;
-padding-top:10px;
-color:#555;
-}
-
-.contact{
-background:#f8fafc;
-}
-
-form{
-display:grid;
-gap:15px;
-}
-
-input, select, textarea{
-padding:14px;
-border:1px solid #ccc;
-border-radius:8px;
-}
-
-button{
-padding:14px;
-background:var(--gold);
-border:none;
-border-radius:8px;
-font-weight:bold;
-cursor:pointer;
-}
-
-footer{
-background:var(--navy);
-color:#fff;
-padding:40px 0;
-text-align:center;
-}
-
-.whatsapp{
-position:fixed;
-right:20px;
-bottom:20px;
-background:#25D366;
-color:#fff;
-padding:15px 18px;
-border-radius:50px;
-text-decoration:none;
-font-weight:bold;
-}
-
-.mobile{
-display:none;
-}
-
-@media(max-width:768px){
-
-.hero-content{
-grid-template-columns:1fr;
-}
-
-.hero h1{
-font-size:36px;
-}
-
-nav ul{
-display:none;
-}
-
-.mobile{
-display:block;
-font-size:28px;
-cursor:pointer;
-}
-
-.show{
-display:flex !important;
-flex-direction:column;
-position:absolute;
-top:70px;
-left:0;
-width:100%;
-background:white;
-padding:20px;
-}
-
-}
-
-</style>
-
-<script type="application/ld+json">
-{
- "@context":"https://schema.org",
- "@type":"ProfessionalService",
- "name":"TaxConsulto",
- "telephone":"+91-7790005009",
- "description":"GST, Income Tax and Business Compliance Services"
-}
-</script>
-
-</head>
-
-<body>
-
-<header>
-<div class="container navbar">
-
-<div class="logo">Tax<span>Consulto</span></div>
-
-<div class="mobile" onclick="toggleMenu()">☰</div>
-
-<nav>
-<ul id="menu">
-<li><a href="#home">Home</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#why">Why Us</a></li>
-<li><a href="#faq">FAQ</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-
-</div>
-</header>
-
-<section class="hero" id="home">
-
-<div class="container hero-content">
-
-<div>
-
-<h1>Expert GST, Income Tax & Business Compliance Services</h1>
-
-<p>
-Helping businesses and professionals stay compliant with hassle-free tax and registration solutions.
-</p>
-
-<a href="#contact" class="btn btn-primary">Book Free Consultation</a>
-
-<a href="https://wa.me/917790005009" class="btn btn-secondary">
-WhatsApp Now
-</a>
-
-</div>
-
-<div>
-<img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=900"
-style="width:100%;border-radius:15px;">
-</div>
-
-</div>
-
-</section>
-
-<section class="section" id="services">
-
-<div class="container">
-
-<h2 class="section-title">Our Services</h2>
-
-<div class="grid">
-
-<div class="card">
-<h3>GST Registration</h3>
-<p>Fast GST registration services.</p>
-</div>
-
-<div class="card">
-<h3>GST Return Filing</h3>
-<p>Monthly and annual GST filing support.</p>
-</div>
-
-<div class="card">
-<h3>Income Tax Filing</h3>
-<p>ITR filing for individuals and businesses.</p>
-</div>
-
-<div class="card">
-<h3>Company Registration</h3>
-<p>Private Limited incorporation assistance.</p>
-</div>
-
-<div class="card">
-<h3>LLP Registration</h3>
-<p>Affordable LLP formation services.</p>
-</div>
-
-<div class="card">
-<h3>Trademark Registration</h3>
-<p>Protect your brand legally.</p>
-</div>
-
-<div class="card">
-<h3>ROC Compliance</h3>
-<p>Annual filing and statutory compliance.</p>
-</div>
-
-<div class="card">
-<h3>Accounting Services</h3>
-<p>Professional bookkeeping solutions.</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section stats">
-
-<div class="container">
-
-<div class="grid">
-
-<div class="stat-box">
-<h2>5000+</h2>
-<p>Tax Returns Filed</p>
-</div>
-
-<div class="stat-box">
-<h2>2500+</h2>
-<p>GST Registrations</p>
-</div>
-
-<div class="stat-box">
-<h2>1000+</h2>
-<p>Companies Registered</p>
-</div>
-
-<div class="stat-box">
-<h2>98%</h2>
-<p>Client Satisfaction</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section" id="why">
-
-<div class="container">
-
-<h2 class="section-title">Why Choose TaxConsulto</h2>
-
-<div class="grid">
-
-<div class="card">
-<h3>Expert Consultants</h3>
-</div>
-
-<div class="card">
-<h3>Affordable Pricing</h3>
-</div>
-
-<div class="card">
-<h3>Dedicated Support</h3>
-</div>
-
-<div class="card">
-<h3>Secure Documentation</h3>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<div class="container">
-
-<h2 class="section-title">Client Testimonials</h2>
-
-<div class="testimonial" id="testimonial">
-Excellent service and fast GST filing support.
-</div>
-
-</div>
-
-</section>
-
-<section class="section" id="faq">
-
-<div class="container">
-
-<h2 class="section-title">Frequently Asked Questions</h2>
-
-<div class="faq-item">
-<h4>How long does GST Registration take?</h4>
-<div class="faq-answer">
-Usually 3 to 7 working days.
-</div>
-</div>
-
-<div class="faq-item">
-<h4>Can you file ITR for salaried employees?</h4>
-<div class="faq-answer">
-Yes, we handle all categories of taxpayers.
-</div>
-</div>
-
-<div class="faq-item">
-<h4>Do you provide Trademark Registration?</h4>
-<div class="faq-answer">
-Yes, nationwide trademark services.
-</div>
-</div>
-
-</div>
-
-</section>
-
-<section class="section contact" id="contact">
-
-<div class="container">
-
-<h2 class="section-title">Contact Us</h2>
-
-<form>
-
-<input type="text" placeholder="Full Name" required>
-
-<input type="tel" placeholder="Phone Number" required>
-
-<input type="email" placeholder="Email Address">
-
-<select>
-<option>Select Service</option>
-<option>GST Filing</option>
-<option>Income Tax</option>
-<option>Company Registration</option>
-</select>
-
-<textarea rows="5" placeholder="Message"></textarea>
-
-<button>Submit Inquiry</button>
-
-</form>
-
-<br>
-
-<h3>Phone: 7790005009</h3>
-
-</div>
-
-</section>
-
-<footer>
-
-<div class="container">
-
-<h3>TaxConsulto.com</h3>
-
-<p>Your Trusted Tax & Compliance Partner</p>
-
-<p>Phone: 7790005009</p>
-
-<p>© 2026 TaxConsulto. All Rights Reserved.</p>
-
-</div>
-
-</footer>
-
-<a class="whatsapp" href="https://wa.me/917790005009">
-WhatsApp
-</a>
-
-<script>
-
-function toggleMenu(){
-document.getElementById("menu").classList.toggle("show");
-}
-
-document.querySelectorAll('.faq-item').forEach(item=>{
-item.addEventListener('click',()=>{
-const answer=item.querySelector('.faq-answer');
-answer.style.display=
-answer.style.display==='block' ? 'none' : 'block';
-});
-});
-
-const testimonials=[
-"Excellent GST filing support and guidance.",
-"Highly professional and responsive team.",
-"Best tax consultant for startups.",
-"Quick company registration process."
-];
-
-let i=0;
-
-setInterval(()=>{
-i=(i+1)%testimonials.length;
-document.getElementById("testimonial").innerText=testimonials[i];
-},3000);
-
-</script>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaxConsulto.com | Expert GST, Income Tax & Compliance Services</title>
+    <meta name="description" content="TaxConsulto.com helps businesses and professionals with GST filing, income tax returns, company registration, accounting, ROC compliance, and business consulting." />
+    <meta name="keywords" content="GST filing, income tax return filing, company registration, LLP registration, trademark registration, ROC compliance, tax consultant India" />
+    <link rel="canonical" href="https://taxconsulto.com/" />
+    <meta property="og:title" content="TaxConsulto.com | Your Trusted Tax & Compliance Partner" />
+    <meta property="og:description" content="Hassle-free GST, income tax, registration, accounting, and compliance services for businesses and professionals." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://taxconsulto.com/" />
+    <meta property="og:image" content="https://taxconsulto.com/assets/og-image.svg" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "TaxConsulto.com",
+        "url": "https://taxconsulto.com/",
+        "telephone": "+917790005009",
+        "email": "hello@taxconsulto.com",
+        "description": "GST, income tax, business registration, accounting, and compliance consulting services.",
+        "areaServed": "India",
+        "priceRange": "$$",
+        "sameAs": [
+          "https://www.facebook.com/taxconsulto",
+          "https://www.linkedin.com/company/taxconsulto",
+          "https://www.instagram.com/taxconsulto"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="index.html" aria-label="TaxConsulto.com home">
+          <span class="brand-mark">TC</span>
+          <span>
+            <strong>TaxConsulto.com</strong>
+            <small>Your Trusted Tax & Compliance Partner</small>
+          </span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a class="nav-cta" href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Premium CA & Tax Consultant Branding</span>
+            <h1>Expert GST, Income Tax & Business Compliance Services</h1>
+            <p>Helping businesses and professionals stay compliant with hassle-free tax and registration solutions.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="contact.html">Book Free Consultation</a>
+              <a class="btn btn-secondary" href="https://wa.me/917790005009" target="_blank" rel="noopener">WhatsApp Now</a>
+            </div>
+            <div class="trust-strip" aria-label="Business highlights">
+              <span>GST</span>
+              <span>ITR</span>
+              <span>ROC</span>
+              <span>Trademark</span>
+            </div>
+          </div>
+          <div class="hero-panel" aria-label="Compliance dashboard illustration">
+            <div class="metric-card primary">
+              <span>Compliance Score</span>
+              <strong>98%</strong>
+            </div>
+            <div class="document-stack">
+              <div class="doc-card">
+                <b>GST Return</b>
+                <small>Filed on time</small>
+                <div class="progress"><span style="width: 92%"></span></div>
+              </div>
+              <div class="doc-card">
+                <b>Income Tax</b>
+                <small>Expert review</small>
+                <div class="progress"><span style="width: 82%"></span></div>
+              </div>
+              <div class="doc-card">
+                <b>Business Setup</b>
+                <small>Registration ready</small>
+                <div class="progress"><span style="width: 74%"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container section-heading">
+          <span class="eyebrow">What We Do</span>
+          <h2>Complete tax, registration, and compliance support</h2>
+          <p>From individual tax returns to business incorporation and monthly compliance, TaxConsulto.com keeps your finances organized and deadlines under control.</p>
+        </div>
+        <div class="container card-grid">
+          <article class="service-card"><span>01</span><h3>GST Filing Services</h3><p>Accurate GST return preparation, reconciliation, and timely filing for registered businesses.</p></article>
+          <article class="service-card"><span>02</span><h3>Income Tax Return Filing</h3><p>ITR filing for salaried professionals, freelancers, businesses, and investors.</p></article>
+          <article class="service-card"><span>03</span><h3>Company Registration</h3><p>Private limited company incorporation with documentation and compliance guidance.</p></article>
+          <article class="service-card"><span>04</span><h3>LLP Registration</h3><p>Simple LLP setup support for founders, consultants, and professional firms.</p></article>
+          <article class="service-card"><span>05</span><h3>Trademark Registration</h3><p>Protect your brand name, logo, or product identity with expert filing support.</p></article>
+          <article class="service-card"><span>06</span><h3>Accounting & Bookkeeping</h3><p>Clean books, monthly reporting, ledgers, and records for better decisions.</p></article>
+          <article class="service-card"><span>07</span><h3>ROC Compliance</h3><p>Annual filing, statutory registers, and compliance support for companies and LLPs.</p></article>
+          <article class="service-card"><span>08</span><h3>Business Consulting</h3><p>Practical tax and compliance advice for scaling businesses and startup founders.</p></article>
+        </div>
+      </section>
+
+      <section class="section muted">
+        <div class="container split">
+          <div>
+            <span class="eyebrow">Why Choose TaxConsulto</span>
+            <h2>Professional guidance with a client-first process</h2>
+            <p>We combine tax knowledge, careful documentation, and responsive support to make compliance simpler for growing businesses.</p>
+          </div>
+          <div class="benefits">
+            <div><b>Experienced Consultants</b><span>Tax, GST, accounting, and registration expertise in one place.</span></div>
+            <div><b>Deadline Focused</b><span>Reminders and timely filing support to reduce penalties.</span></div>
+            <div><b>Transparent Pricing</b><span>Clear packages with no confusing surprises.</span></div>
+            <div><b>Digital Process</b><span>Share documents online and get work done faster.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container section-heading">
+          <span class="eyebrow">Testimonials</span>
+          <h2>Trusted by business owners and professionals</h2>
+        </div>
+        <div class="container testimonial-wrap">
+          <button class="carousel-btn" data-carousel-prev aria-label="Previous testimonial">‹</button>
+          <div class="testimonial-carousel">
+            <article class="testimonial active"><p>“TaxConsulto made our GST filing and bookkeeping much easier. Their team is responsive and clear.”</p><b>Rohit Sharma</b><span>Retail Business Owner</span></article>
+            <article class="testimonial"><p>“I got my company registered quickly with proper guidance at every step. Very professional service.”</p><b>Priya Mehta</b><span>Startup Founder</span></article>
+            <article class="testimonial"><p>“The ITR filing process was smooth, accurate, and completed before the deadline.”</p><b>Amit Jain</b><span>Consultant</span></article>
+          </div>
+          <button class="carousel-btn" data-carousel-next aria-label="Next testimonial">›</button>
+        </div>
+      </section>
+
+      <section class="section muted">
+        <div class="container section-heading">
+          <span class="eyebrow">FAQ</span>
+          <h2>Common questions</h2>
+        </div>
+        <div class="container faq-list">
+          <div class="faq-item"><button>What documents are needed for GST return filing?</button><div><p>Sales invoices, purchase invoices, GST portal access, e-way bills if applicable, and accounting records are usually required.</p></div></div>
+          <div class="faq-item"><button>Can I book a free consultation?</button><div><p>Yes. Use the contact form or WhatsApp button and our team will connect with you.</p></div></div>
+          <div class="faq-item"><button>Do you help with new company registration?</button><div><p>Yes. We assist with private limited company, LLP, MSME, startup, and related registrations.</p></div></div>
+          <div class="faq-item"><button>Is the process online?</button><div><p>Most services can be handled digitally through secure document sharing and online coordination.</p></div></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-panel">
+          <div>
+            <span class="eyebrow">Get Started</span>
+            <h2>Book your free consultation</h2>
+            <p>Tell us what you need help with and we will call you back.</p>
+          </div>
+          <form class="lead-form">
+            <input type="text" name="name" placeholder="Full name" required />
+            <input type="tel" name="phone" placeholder="Phone number" required />
+            <input type="email" name="email" placeholder="Email address" required />
+            <select name="service" required>
+              <option value="">Select service</option>
+              <option>GST Filing</option>
+              <option>Income Tax Filing</option>
+              <option>Company Registration</option>
+              <option>Accounting Services</option>
+            </select>
+            <textarea name="message" placeholder="How can we help?"></textarea>
+            <button class="btn btn-primary" type="submit">Submit Enquiry</button>
+            <p class="form-note" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="index.html"><span class="brand-mark">TC</span><span><strong>TaxConsulto.com</strong><small>Your Trusted Tax & Compliance Partner</small></span></a>
+          <p>Professional tax, registration, accounting, and compliance services for businesses and professionals.</p>
+        </div>
+        <div><h3>Quick Links</h3><a href="services.html">Services</a><a href="pricing.html">Pricing</a><a href="about.html">About Us</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+        <div><h3>Services</h3><a href="services.html">GST Filing</a><a href="services.html">Income Tax Filing</a><a href="services.html">Company Registration</a><a href="services.html">Trademark Registration</a><a href="services.html">ROC Compliance</a></div>
+        <div><h3>Contact</h3><p>Phone: <a href="tel:+917790005009">7790005009</a></p><p>Email: <a href="mailto:hello@taxconsulto.com">hello@taxconsulto.com</a></p><div class="socials"><a href="#">Facebook</a><a href="#">LinkedIn</a><a href="#">Instagram</a></div></div>
+      </div>
+      <div class="container footer-bottom"><span>© 2026 TaxConsulto.com. All rights reserved.</span><span><a href="privacy-policy.html">Privacy Policy</a> · <a href="terms.html">Terms & Conditions</a></span></div>
+    </footer>
+
+    <a class="whatsapp-float" href="https://wa.me/917790005009" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+    <script src="script.js"></script>
+  </body>
 </html>
