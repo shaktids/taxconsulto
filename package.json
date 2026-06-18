@@ -3,28 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "wrangler dev",
     "prebuild": "node scripts/replace-contact.js",
-    "tailwind:build": "tailwindcss -i ./src/input.css -o ./public/css/style.css --minify",
-    "build": "npm run prebuild && npm run tailwind:build",
-    "start": "next start",
-    "lint": "eslint . --max-warnings=0"
+    "build": "npm run prebuild",
+    "deploy": "wrangler deploy"
   },
-  "dependencies": {
-    "next": "^15.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "^15.0.0",
     "live-server": "^1.2.2",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14",
-    "typescript": "^5.6.0"
+    "wrangler": "^4.101.0"
   }
 }
